@@ -13,6 +13,55 @@
     box-sizing: border-box;
 }
 
+html, body, header {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+    background-size: cover;
+    background-image: url("./img/background.jpg");
+    text-align: center;
+}
+
+header .container {
+    flex-grow: 1;
+    margin-top: 50%;
+}
+
 header h1 {
+    padding: 5px;
+    background-color: rgba(0, 3, 176, 0.6);
+    color: #ffffff;
     font-family: "Changa", sans-serif;
+    font-size: 55px;
+}
+
+header h1 img {
+    width: 90px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header p {
+    flex-grow: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+header p a {
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
 }
