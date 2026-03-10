@@ -10,7 +10,7 @@
 
   <header>
     <div class="container">
-      <h1><img src="./img/odin-lined.png" alt="">ODIN</h1>
+      <h1><img src="./img/odin-lined.png" alt="ODIN logo">ODIN</h1>
     </div>
 
     <p>Photo by <a href="https://unsplash.com/@wenhao_ruan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wenhao Ruan</a> on <a href="https://unsplash.com/photos/a-red-bridge-over-a-river-with-a-city-in-the-background-4g1wsFGABZk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</p></a>
@@ -18,40 +18,42 @@
   
   <main>
     <p>
-      This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+      This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.
     </p>
     <p>You know you want to.</p>
 
-    <form action="">
+    <form action="" id="form">
       <p>Let's do this!</p>
 
-      <label for="fname">
-        FIRST NAME
-        <input type="text" id="fname" name="fname">
-      </label>
-      <label for="lname">
-        LAST NAME
-        <input type="text" id="lname" name="lname">
-      </label>
-      <label for="email">
-        EMAIL
-        <input type="email" id="email" name="email">
-      </label>
-      <label for="phone">
-        PHONE NUMBER
-        <input type="number" id="phone" name="phone">
-      </label>
-      <label for="password">
-        PASSWORD
-        <input type="password" id="password" name="password">
-      </label>
-      <label for="cpassword">
-        CONFIRM PASSWORD
-        <input type="password" id="cpassword" name="cpassword">
-      </label>
-
-      <button type="submit">Create Account</button>
+      <div class="container">
+        <label for="fname">
+          FIRST NAME
+          <input type="text" id="fname" name="fname">
+        </label>
+        <label for="lname">
+          LAST NAME
+          <input type="text" id="lname" name="lname">
+        </label>
+        <label for="email">
+          EMAIL
+          <input type="email" id="email" name="email">
+        </label>
+        <label for="phone">
+          PHONE NUMBER
+          <input type="number" id="phone" name="phone">
+        </label>
+        <label for="password">
+          PASSWORD
+          <input type="password" id="password" name="password">
+        </label>
+        <label for="cpassword">
+          CONFIRM PASSWORD
+          <input type="password" id="cpassword" name="cpassword">
+        </label>
+      </div>
     </form>
+
+    <button type="submit" form="form">Create Account</button>
     
     <p>Already have an account? <a href="">Log in</a></p>
   </main>
