@@ -24,6 +24,12 @@ button, input {
     font-size: 100%;
 }
 
+input {
+    appearance: none;
+    outline: none;
+}
+
+
 html, body, header {
     height: 100%;
 }
@@ -140,4 +146,14 @@ main button {
     font-weight: bold;
     background-color: #2c3fad;
     color: #ffffff;
+}
+
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 2px 2px 2px 0 #dddddd;;
 }
